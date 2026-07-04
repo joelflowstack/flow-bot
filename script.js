@@ -3,7 +3,7 @@
 //  All original visuals + Personality + Weather + Notes
 // ══════════════════════════════════════════════════════════════
 
-const API_KEY   = "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";
+const API_KEY   = "";
 const MODEL     = "deepseek/deepseek-chat-v3-0324:free";
 const SITE_URL  = window.location.href;
 const SITE_NAME = "Flow AI";
