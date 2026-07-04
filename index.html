@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Flow AI</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<div class="orb-container">
+
+  <div class="orb"></div>
+
+</div>
+
+<div id="messages"
+class="messages"></div>
+
+<div class="input-panel">
+
+  <button id="mic-btn"
+  onclick="startListening()">
+    🎤
+  </button>
+
+  <input
+  type="text"
+  id="user-input"
+  placeholder="Talk to Flow...">
+
+  <button id="send-btn"
+  onclick="sendMessage()">
+    ➤
+  </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
